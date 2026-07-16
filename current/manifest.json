@@ -1,0 +1,2144 @@
+{
+  "build_mode": "latest-exact-upstreams",
+  "categories": [
+    {
+      "id": "lan",
+      "inline_rule_count": 23,
+      "order": 10,
+      "providers": [],
+      "rule_count": 23,
+      "target": "DIRECT"
+    },
+    {
+      "id": "private",
+      "inline_rule_count": 0,
+      "order": 20,
+      "providers": [
+        "private-domain",
+        "private-ipcidr"
+      ],
+      "rule_count": 156,
+      "target": "DIRECT"
+    },
+    {
+      "id": "custom-direct",
+      "inline_rule_count": 0,
+      "order": 30,
+      "providers": [
+        "custom-direct-domain",
+        "custom-direct-ipcidr"
+      ],
+      "rule_count": 4,
+      "target": "DIRECT"
+    },
+    {
+      "id": "custom-proxy",
+      "inline_rule_count": 0,
+      "order": 40,
+      "providers": [
+        "custom-proxy-domain"
+      ],
+      "rule_count": 5,
+      "target": "🚀 节点选择"
+    },
+    {
+      "id": "bilibili-hmt",
+      "inline_rule_count": 0,
+      "order": 50,
+      "providers": [
+        "bilibili-hmt-domain",
+        "bilibili-hmt-ipcidr"
+      ],
+      "rule_count": 21,
+      "target": "🚀 节点选择"
+    },
+    {
+      "id": "emby",
+      "inline_rule_count": 5,
+      "order": 60,
+      "providers": [
+        "emby-domain",
+        "emby-ipcidr"
+      ],
+      "rule_count": 104,
+      "target": "🚀 节点选择"
+    },
+    {
+      "id": "github",
+      "inline_rule_count": 1,
+      "order": 70,
+      "providers": [
+        "github-domain"
+      ],
+      "rule_count": 61,
+      "target": "🚀 节点选择"
+    },
+    {
+      "id": "openai",
+      "inline_rule_count": 1,
+      "order": 80,
+      "providers": [
+        "openai-domain"
+      ],
+      "rule_count": 34,
+      "target": "🚀 节点选择"
+    },
+    {
+      "id": "telegram",
+      "inline_rule_count": 1,
+      "order": 90,
+      "providers": [
+        "telegram-domain",
+        "telegram-ipcidr"
+      ],
+      "rule_count": 36,
+      "target": "🚀 节点选择"
+    },
+    {
+      "id": "onedrive",
+      "inline_rule_count": 3,
+      "order": 100,
+      "providers": [
+        "onedrive-domain"
+      ],
+      "rule_count": 19,
+      "target": "DIRECT"
+    },
+    {
+      "id": "microsoft",
+      "inline_rule_count": 2,
+      "order": 110,
+      "providers": [
+        "microsoft-domain"
+      ],
+      "rule_count": 707,
+      "target": "DIRECT"
+    },
+    {
+      "id": "google-fcm",
+      "inline_rule_count": 0,
+      "order": 120,
+      "providers": [
+        "google-fcm-domain",
+        "google-fcm-ipcidr"
+      ],
+      "rule_count": 44,
+      "target": "DIRECT"
+    },
+    {
+      "id": "icloud",
+      "inline_rule_count": 0,
+      "order": 130,
+      "providers": [
+        "icloud-domain"
+      ],
+      "rule_count": 53,
+      "target": "DIRECT"
+    },
+    {
+      "id": "apple",
+      "inline_rule_count": 0,
+      "order": 140,
+      "providers": [
+        "apple-domain",
+        "apple-ipcidr"
+      ],
+      "rule_count": 1605,
+      "target": "DIRECT"
+    },
+    {
+      "id": "ads",
+      "inline_rule_count": 24,
+      "order": 150,
+      "providers": [
+        "ads-domain",
+        "ads-ipcidr"
+      ],
+      "rule_count": 6484,
+      "target": "REJECT"
+    },
+    {
+      "id": "app-ads",
+      "inline_rule_count": 1,
+      "order": 160,
+      "providers": [
+        "app-ads-domain",
+        "app-ads-ipcidr"
+      ],
+      "rule_count": 993,
+      "target": "REJECT"
+    },
+    {
+      "id": "gfw",
+      "inline_rule_count": 0,
+      "order": 170,
+      "providers": [
+        "gfw-domain"
+      ],
+      "rule_count": 4344,
+      "target": "🚀 节点选择"
+    },
+    {
+      "id": "global-non-cn",
+      "inline_rule_count": 0,
+      "order": 180,
+      "providers": [
+        "global-non-cn-domain"
+      ],
+      "rule_count": 26835,
+      "target": "🚀 节点选择"
+    },
+    {
+      "id": "google-cn",
+      "inline_rule_count": 0,
+      "order": 190,
+      "providers": [
+        "google-cn-domain"
+      ],
+      "rule_count": 160,
+      "target": "DIRECT"
+    },
+    {
+      "id": "steam-cn",
+      "inline_rule_count": 0,
+      "order": 200,
+      "providers": [
+        "steam-cn-domain"
+      ],
+      "rule_count": 23,
+      "target": "DIRECT"
+    },
+    {
+      "id": "download",
+      "inline_rule_count": 1,
+      "order": 210,
+      "providers": [
+        "download-domain"
+      ],
+      "rule_count": 2,
+      "target": "DIRECT"
+    },
+    {
+      "id": "unban",
+      "inline_rule_count": 0,
+      "order": 220,
+      "providers": [
+        "unban-domain"
+      ],
+      "rule_count": 51,
+      "target": "DIRECT"
+    },
+    {
+      "id": "china",
+      "inline_rule_count": 16,
+      "order": 230,
+      "providers": [
+        "china-domain",
+        "china-ipcidr"
+      ],
+      "rule_count": 123168,
+      "target": "DIRECT"
+    },
+    {
+      "id": "final",
+      "inline_rule_count": 1,
+      "order": 999,
+      "providers": [],
+      "rule_count": 1,
+      "target": "🚀 节点选择"
+    }
+  ],
+  "compiler": "Mihomo Meta v1.19.28 linux amd64 with go1.26.5 Wed Jul  8 00:20:44 UTC 2026",
+  "mrs_version": 1,
+  "providers": [
+    {
+      "behavior": "domain",
+      "category": "private",
+      "file": "private-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "private-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 138,
+      "sha256": "2dffc3aabe7f4800b4809cd641d9e350987a65e43e1721259c442b48b0fb199a",
+      "size": 804,
+      "sources": [
+        "metacubex-private-domain",
+        "acl4ssr-local-area-network"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "private",
+      "file": "private-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "private-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 18,
+      "sha256": "076ea1da10b442f01c6fb3b86a66411727a15df69d70e8d600a8a458b07a8bb0",
+      "size": 155,
+      "sources": [
+        "metacubex-private-ip"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "custom-direct",
+      "file": "custom-direct-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "custom-direct-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 3,
+      "sha256": "4e1688a6e98a0c4d19572e5da55376badd797bc02ae6a83742959867aa6cb1b1",
+      "size": 79,
+      "sources": [
+        "local-direct"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "custom-direct",
+      "file": "custom-direct-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "custom-direct-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 1,
+      "sha256": "688c3195358a51f8b91c1b0850a112c34cd0acae9cf098934333eace8140a593",
+      "size": 51,
+      "sources": [
+        "local-direct"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "custom-proxy",
+      "file": "custom-proxy-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "custom-proxy-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 5,
+      "sha256": "aa4dbdb27a9eddda58c2f0689d19e5d3619c4d36c67241d8fe9ca142bc6f50b8",
+      "size": 116,
+      "sources": [
+        "local-proxy"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "domain",
+      "category": "bilibili-hmt",
+      "file": "bilibili-hmt-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "bilibili-hmt-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 8,
+      "sha256": "15d7205d836cd5a2296bd0aece4b849e51259b6e9102bb84176cb3b3c233e5ed",
+      "size": 178,
+      "sources": [
+        "acl4ssr-bilibili-hmt"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "bilibili-hmt",
+      "file": "bilibili-hmt-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "bilibili-hmt-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 13,
+      "sha256": "cecd59785b2c0716f0e6006f65b8da71fb631ae6a36db180b5f3dd8329a13031",
+      "size": 103,
+      "sources": [
+        "acl4ssr-bilibili-hmt"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "domain",
+      "category": "emby",
+      "file": "emby-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "emby-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 96,
+      "sha256": "5946026b1373129651df5d41ade82766a44aac0fa6323bce1dc0bfa49d89721a",
+      "size": 1039,
+      "sources": [
+        "emby-cutethotw",
+        "emby-blackmatrix7",
+        "emby-nowat995"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "emby",
+      "file": "emby-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "emby-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 3,
+      "sha256": "487e4d448d87d7e011763857753be907bba16fe7dcc65a3ffe713705379d842d",
+      "size": 60,
+      "sources": [
+        "emby-cutethotw",
+        "emby-nowat995"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "domain",
+      "category": "github",
+      "file": "github-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "github-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 60,
+      "sha256": "0f20d1476c2801fb9d0f2e2a70270e7cac5326c3aecd39863fd3444034f64608",
+      "size": 782,
+      "sources": [
+        "metacubex-github"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "domain",
+      "category": "openai",
+      "file": "openai-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "openai-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 33,
+      "sha256": "eb8b3c7015267ab11b841cdfd2a3f7ff4acc623954a4c0b6642ca9fef2518545",
+      "size": 530,
+      "sources": [
+        "metacubex-openai",
+        "acl4ssr-openai"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "domain",
+      "category": "telegram",
+      "file": "telegram-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "telegram-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 21,
+      "sha256": "ffa4d1d3e8649965e529c1c570d8add75a0d6f70aa8503ece8add841ce48c0e7",
+      "size": 274,
+      "sources": [
+        "metacubex-telegram-domain"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "telegram",
+      "file": "telegram-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "telegram-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 14,
+      "sha256": "75a4327531dc836edb87a246211e2bc94c16e75a05a2be7a89ad87b0882ed8e4",
+      "size": 146,
+      "sources": [
+        "metacubex-telegram-ip",
+        "acl4ssr-telegram"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "domain",
+      "category": "onedrive",
+      "file": "onedrive-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "onedrive-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 16,
+      "sha256": "0ecdba8f4bfa5161df4d0923ddba160ce6e85fc0c8cfa0ac5b9bac27384ac8bc",
+      "size": 288,
+      "sources": [
+        "metacubex-onedrive"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "microsoft",
+      "file": "microsoft-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "microsoft-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 705,
+      "sha256": "0d9600617671fd5dccb201609e9e417fe80243202c96ec4eb14b5013d05a1cb0",
+      "size": 7611,
+      "sources": [
+        "metacubex-microsoft",
+        "acl4ssr-microsoft"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "google-fcm",
+      "file": "google-fcm-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "google-fcm-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 18,
+      "sha256": "6625787f79f93a01bed2e803a276be1b5d962a383a395c4c9fff567c6ceca057",
+      "size": 137,
+      "sources": [
+        "acl4ssr-google-fcm"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "google-fcm",
+      "file": "google-fcm-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "google-fcm-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 26,
+      "sha256": "b949967cb3fb796c8c7c456634f3c67167cc9a536425f2946a5c9425cb41c267",
+      "size": 123,
+      "sources": [
+        "acl4ssr-google-fcm"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "icloud",
+      "file": "icloud-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "icloud-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 53,
+      "sha256": "cf0a67d1b6b270cd524dd5a6d0f73f15e5900e7c68c7a0e8268c58a3b1beffca",
+      "size": 576,
+      "sources": [
+        "metacubex-icloud"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "apple",
+      "file": "apple-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "apple-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 1595,
+      "sha256": "c7231f3b2b23f26143268d736b40394656c0411bfb86c64c6a1ce208120e0bed",
+      "size": 16475,
+      "sources": [
+        "metacubex-apple",
+        "acl4ssr-apple"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "apple",
+      "file": "apple-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "apple-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 10,
+      "sha256": "9c3ac6e550ff760e7af78040ceac1711e4b6173876069926e40a492ad1683cb5",
+      "size": 131,
+      "sources": [
+        "acl4ssr-apple"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "ads",
+      "file": "ads-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "ads-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 6455,
+      "sha256": "7e188b314a83c8af559a94ec1f3e07e7fc3671243ec2ebca992a2e2f6cb36250",
+      "size": 47509,
+      "sources": [
+        "metacubex-category-ads-all",
+        "acl4ssr-ban-ad",
+        "acl4ssr-ban-easy-list-china"
+      ],
+      "target": "REJECT"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "ads",
+      "file": "ads-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "ads-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 5,
+      "sha256": "c29b3774d0c64a824ba461328b3cc92d7600182fbfaf33012c4753d1f171a7f4",
+      "size": 71,
+      "sources": [
+        "acl4ssr-ban-easy-list-china"
+      ],
+      "target": "REJECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "app-ads",
+      "file": "app-ads-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "app-ads-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 975,
+      "sha256": "3a84962a158fa582fef94b9d117d9330d917b93ae8b440dad1a3416f2fca6503",
+      "size": 7879,
+      "sources": [
+        "acl4ssr-ban-program-ad"
+      ],
+      "target": "REJECT"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "app-ads",
+      "file": "app-ads-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "app-ads-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 17,
+      "sha256": "cf00ecba6d2384697811d74808c2626dc80390029811f5a69b1fd233043e7305",
+      "size": 104,
+      "sources": [
+        "acl4ssr-ban-program-ad"
+      ],
+      "target": "REJECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "gfw",
+      "file": "gfw-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "gfw-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 4344,
+      "sha256": "d09bd2953170227c31b87553da7275af0ff6f48ee6ee23b7017456e40c75cbcf",
+      "size": 34043,
+      "sources": [
+        "metacubex-gfw",
+        "acl4ssr-proxy-gfwlist"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "domain",
+      "category": "global-non-cn",
+      "file": "global-non-cn-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "global-non-cn-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 26835,
+      "sha256": "ff61489aca5f2defea1b20bcbe6d224bb183632a4b6704363fa540029205694a",
+      "size": 196783,
+      "sources": [
+        "metacubex-geolocation-non-cn"
+      ],
+      "target": "🚀 节点选择"
+    },
+    {
+      "behavior": "domain",
+      "category": "google-cn",
+      "file": "google-cn-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "google-cn-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 160,
+      "sha256": "ce1be1401f4ef556345b7c87fdebbe153560b43e4484d5425c9a0df66b91f18c",
+      "size": 1384,
+      "sources": [
+        "metacubex-google-cn",
+        "acl4ssr-google-cn"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "steam-cn",
+      "file": "steam-cn-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "steam-cn-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 23,
+      "sha256": "73f239190abf8569da0c9d8ab44dd811dcf1737000b24bad94fbf93cb9b4dd30",
+      "size": 399,
+      "sources": [
+        "metacubex-steam-cn",
+        "acl4ssr-steam-cn"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "download",
+      "file": "download-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "download-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 1,
+      "sha256": "e98f34602834c67530f6658e868d81b4a941e3b51ed3cf0228675c5afa5dca20",
+      "size": 46,
+      "sources": [
+        "acl4ssr-download"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "unban",
+      "file": "unban-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "unban-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 51,
+      "sha256": "fc91305b886bbcc83d9190979a912c41343065fa3c6ad93a7b71075933782f7b",
+      "size": 617,
+      "sources": [
+        "acl4ssr-unban"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "domain",
+      "category": "china",
+      "file": "china-domain.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "china-domain",
+      "no_resolve": false,
+      "options": [],
+      "rule_count": 111866,
+      "sha256": "57b37c68043a6202fc44abda71671bd5a70b16d9fe16755720cc92e9c555eb08",
+      "size": 543251,
+      "sources": [
+        "metacubex-china-domain",
+        "acl4ssr-china-domain"
+      ],
+      "target": "DIRECT"
+    },
+    {
+      "behavior": "ipcidr",
+      "category": "china",
+      "file": "china-ipcidr.mrs",
+      "format": "mrs",
+      "interval": 86400,
+      "mrs_version": 1,
+      "name": "china-ipcidr",
+      "no_resolve": true,
+      "options": [
+        "no-resolve"
+      ],
+      "rule_count": 11286,
+      "sha256": "8003d1efea27e5cd48e79a56d741a7d03243302675b1d2484c7383e7c2af90ec",
+      "size": 37066,
+      "sources": [
+        "metacubex-china-ip",
+        "acl4ssr-china-domain",
+        "acl4ssr-china-ip",
+        "acl4ssr-china-company-ip"
+      ],
+      "target": "DIRECT"
+    }
+  ],
+  "release": "current",
+  "repositories": [
+    {
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat"
+    },
+    {
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR"
+    },
+    {
+      "commit": "637fa05ff8c41bb8f4031f5db64bbea2e16aa1d6",
+      "ref": "main",
+      "repository": "cutethotw/ClashRule"
+    },
+    {
+      "commit": "cdd1e3a0ae2834d3f79715d05931ac4936e22592",
+      "ref": "master",
+      "repository": "blackmatrix7/ios_rule_script"
+    },
+    {
+      "commit": "3558c004305c56193909aac5b5af923739638455",
+      "ref": "main",
+      "repository": "Nowat995/emby"
+    }
+  ],
+  "rules": [
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN,localhost,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN,router.asus.com,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN,www.asusrouter.com,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN,routerlogin.com,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN,www.routerlogin.com,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN,tplogin.cn,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN,miwifi.com,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN,www.miwifi.com,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN-SUFFIX,lan,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN-SUFFIX,local,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN-SUFFIX,localdomain,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "DOMAIN-SUFFIX,home.arpa,DIRECT",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR,169.254.0.0/16,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR,224.0.0.0/4,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR,255.255.255.255/32,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR6,::1/128,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR6,fc00::/7,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR6,fe80::/10,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "lan",
+      "kind": "inline",
+      "rule": "IP-CIDR6,ff00::/8,DIRECT,no-resolve",
+      "source": "local-lan"
+    },
+    {
+      "category": "private",
+      "kind": "provider",
+      "options": [],
+      "provider": "private-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "private",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "private-ipcidr",
+      "target": "DIRECT"
+    },
+    {
+      "category": "custom-direct",
+      "kind": "provider",
+      "options": [],
+      "provider": "custom-direct-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "custom-direct",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "custom-direct-ipcidr",
+      "target": "DIRECT"
+    },
+    {
+      "category": "custom-proxy",
+      "kind": "provider",
+      "options": [],
+      "provider": "custom-proxy-domain",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "bilibili-hmt",
+      "kind": "provider",
+      "options": [],
+      "provider": "bilibili-hmt-domain",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "bilibili-hmt",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "bilibili-hmt-ipcidr",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "emby",
+      "kind": "provider",
+      "options": [],
+      "provider": "emby-domain",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "emby",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "emby-ipcidr",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "emby",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,emby,🚀 节点选择",
+      "source": "emby-cutethotw"
+    },
+    {
+      "category": "emby",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,emby.wtf,🚀 节点选择",
+      "source": "emby-blackmatrix7"
+    },
+    {
+      "category": "emby",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,jmsooo,🚀 节点选择",
+      "source": "emby-blackmatrix7"
+    },
+    {
+      "category": "emby",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,odysseyplus,🚀 节点选择",
+      "source": "emby-blackmatrix7"
+    },
+    {
+      "category": "emby",
+      "kind": "inline",
+      "rule": "PROCESS-NAME,com.mb.android,🚀 节点选择",
+      "source": "emby-blackmatrix7"
+    },
+    {
+      "category": "github",
+      "kind": "provider",
+      "options": [],
+      "provider": "github-domain",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "github",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,github,🚀 节点选择",
+      "source": "acl4ssr-github"
+    },
+    {
+      "category": "openai",
+      "kind": "provider",
+      "options": [],
+      "provider": "openai-domain",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "openai",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,openai,🚀 节点选择",
+      "source": "acl4ssr-openai"
+    },
+    {
+      "category": "telegram",
+      "kind": "provider",
+      "options": [],
+      "provider": "telegram-domain",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "telegram",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "telegram-ipcidr",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "telegram",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,telegram,🚀 节点选择",
+      "source": "acl4ssr-telegram"
+    },
+    {
+      "category": "onedrive",
+      "kind": "provider",
+      "options": [],
+      "provider": "onedrive-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "onedrive",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,1drv,DIRECT",
+      "source": "acl4ssr-onedrive"
+    },
+    {
+      "category": "onedrive",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,onedrive,DIRECT",
+      "source": "acl4ssr-onedrive"
+    },
+    {
+      "category": "onedrive",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,skydrive,DIRECT",
+      "source": "acl4ssr-onedrive"
+    },
+    {
+      "category": "microsoft",
+      "kind": "provider",
+      "options": [],
+      "provider": "microsoft-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "microsoft",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,1drv,DIRECT",
+      "source": "acl4ssr-microsoft"
+    },
+    {
+      "category": "microsoft",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,microsoft,DIRECT",
+      "source": "acl4ssr-microsoft"
+    },
+    {
+      "category": "google-fcm",
+      "kind": "provider",
+      "options": [],
+      "provider": "google-fcm-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "google-fcm",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "google-fcm-ipcidr",
+      "target": "DIRECT"
+    },
+    {
+      "category": "icloud",
+      "kind": "provider",
+      "options": [],
+      "provider": "icloud-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "apple",
+      "kind": "provider",
+      "options": [],
+      "provider": "apple-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "apple",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "apple-ipcidr",
+      "target": "DIRECT"
+    },
+    {
+      "category": "ads",
+      "kind": "provider",
+      "options": [],
+      "provider": "ads-domain",
+      "target": "REJECT"
+    },
+    {
+      "category": "ads",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "ads-ipcidr",
+      "target": "REJECT"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,admarvel,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,admaster,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,adsage,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,adsensor,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,adsmogo,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,adsrvmedia,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,adsserving,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,adsystem,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,adwords,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,applovin,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,appsflyer,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,domob,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,duomeng,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,dwtrack,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,guanggao,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,omgmta,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,omniture,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,openx,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,partnerad,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,pingfore,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,socdm,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,supersonicads,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,wlmonitor,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,zjtoolbar,REJECT",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "app-ads",
+      "kind": "provider",
+      "options": [],
+      "provider": "app-ads-domain",
+      "target": "REJECT"
+    },
+    {
+      "category": "app-ads",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "app-ads-ipcidr",
+      "target": "REJECT"
+    },
+    {
+      "category": "app-ads",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,omgmtaw,REJECT",
+      "source": "acl4ssr-ban-program-ad"
+    },
+    {
+      "category": "gfw",
+      "kind": "provider",
+      "options": [],
+      "provider": "gfw-domain",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "global-non-cn",
+      "kind": "provider",
+      "options": [],
+      "provider": "global-non-cn-domain",
+      "target": "🚀 节点选择"
+    },
+    {
+      "category": "google-cn",
+      "kind": "provider",
+      "options": [],
+      "provider": "google-cn-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "steam-cn",
+      "kind": "provider",
+      "options": [],
+      "provider": "steam-cn-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "download",
+      "kind": "provider",
+      "options": [],
+      "provider": "download-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "download",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,aria2,DIRECT",
+      "source": "acl4ssr-download"
+    },
+    {
+      "category": "unban",
+      "kind": "provider",
+      "options": [],
+      "provider": "unban-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "china",
+      "kind": "provider",
+      "options": [],
+      "provider": "china-domain",
+      "target": "DIRECT"
+    },
+    {
+      "category": "china",
+      "kind": "provider",
+      "options": [
+        "no-resolve"
+      ],
+      "provider": "china-ipcidr",
+      "target": "DIRECT"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,360buy,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,alicdn,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,alimama,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,alipay,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,appzapp,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,baidupcs,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,bilibili,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,ccgslb,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,chinacache,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,duobao,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,jdpay,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,moke,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,qhimg,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,vpimg,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,xiami,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "kind": "inline",
+      "rule": "DOMAIN-KEYWORD,xiaomi,DIRECT",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "final",
+      "kind": "inline",
+      "rule": "MATCH,🚀 节点选择",
+      "source": "final-inline"
+    }
+  ],
+  "schema_version": 2,
+  "source_manifest_sha256": "1dd844c5dbba777f9b5b229cee502c3c2c9cc79f55e7716c8eeeb62ea2a924d1",
+  "sources": [
+    {
+      "category": "lan",
+      "commit": null,
+      "format": "classical-yaml",
+      "location": "../rules/lan.yaml",
+      "path": null,
+      "ref": null,
+      "repository": null,
+      "rule_count": 23,
+      "sha256": "4b87f1e3fba8b1513ab8f4798765cc659c6e3b6303ed6a71a6da8b853d82eaf7",
+      "source": "local-lan"
+    },
+    {
+      "category": "private",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/private.yaml",
+      "path": "geo/geosite/private.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 130,
+      "sha256": "10918636e35f4182a62d4ba06e4abe70e203d53e26548d5c27abf0f9bebe475b",
+      "source": "metacubex-private-domain"
+    },
+    {
+      "category": "private",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-ipcidr-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geoip/private.yaml",
+      "path": "geo/geoip/private.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 18,
+      "sha256": "397ddcfd2969af6b7ed3a6e586b512ad0124a99d5cd7cc614e9fd74d434400f5",
+      "source": "metacubex-private-ip"
+    },
+    {
+      "category": "private",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/LocalAreaNetwork.yaml",
+      "path": "Clash/Providers/LocalAreaNetwork.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 37,
+      "sha256": "4f283cc1838e4285479506c702816d363184ba43fbfa425ff72b4e0986e8af5e",
+      "source": "acl4ssr-local-area-network"
+    },
+    {
+      "category": "custom-direct",
+      "commit": null,
+      "format": "classical-yaml",
+      "location": "../rules/direct.yaml",
+      "path": null,
+      "ref": null,
+      "repository": null,
+      "rule_count": 4,
+      "sha256": "56bd13488d36dabf0f848e25074d90a1376e4ae20a4e4ce61e8620d37e05c255",
+      "source": "local-direct"
+    },
+    {
+      "category": "custom-proxy",
+      "commit": null,
+      "format": "classical-yaml",
+      "location": "../rules/proxy.yaml",
+      "path": null,
+      "ref": null,
+      "repository": null,
+      "rule_count": 5,
+      "sha256": "204af5e82fe07d4665e093b29802e83876c07968851024169ec56cf4b58a3400",
+      "source": "local-proxy"
+    },
+    {
+      "category": "bilibili-hmt",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/BilibiliHMT.yaml",
+      "path": "Clash/Providers/Ruleset/BilibiliHMT.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 21,
+      "sha256": "4bd95dc6cd59431dc9c23f92edfe63dcbfec9a3fecd4e6dddaf0ce31b293d3bf",
+      "source": "acl4ssr-bilibili-hmt"
+    },
+    {
+      "category": "emby",
+      "commit": "637fa05ff8c41bb8f4031f5db64bbea2e16aa1d6",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/cutethotw/ClashRule/637fa05ff8c41bb8f4031f5db64bbea2e16aa1d6/Rule/Emby.yaml",
+      "path": "Rule/Emby.yaml",
+      "ref": "main",
+      "repository": "cutethotw/ClashRule",
+      "rule_count": 16,
+      "sha256": "b9cc90793d26902a76100f1d4172763719f590c2892206a6da5dcab630ae81eb",
+      "source": "emby-cutethotw"
+    },
+    {
+      "category": "emby",
+      "commit": "cdd1e3a0ae2834d3f79715d05931ac4936e22592",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/cdd1e3a0ae2834d3f79715d05931ac4936e22592/rule/Clash/Emby/Emby.yaml",
+      "path": "rule/Clash/Emby/Emby.yaml",
+      "ref": "master",
+      "repository": "blackmatrix7/ios_rule_script",
+      "rule_count": 52,
+      "sha256": "bd2b9c2a96c12aba29a522246f7a51ae98a78731a0df805f01d8d4f0c98df519",
+      "source": "emby-blackmatrix7"
+    },
+    {
+      "category": "emby",
+      "commit": "3558c004305c56193909aac5b5af923739638455",
+      "format": "classical-text",
+      "location": "https://raw.githubusercontent.com/Nowat995/emby/3558c004305c56193909aac5b5af923739638455/AddEmbyList.list",
+      "path": "AddEmbyList.list",
+      "ref": "main",
+      "repository": "Nowat995/emby",
+      "rule_count": 85,
+      "sha256": "86267d62f830bcec3db61d3893838dd1fc754f1c890843782502adb2eaa3fbfc",
+      "source": "emby-nowat995"
+    },
+    {
+      "category": "github",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/github.yaml",
+      "path": "geo/geosite/github.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 63,
+      "sha256": "54feeaa9fe7b463455d4c7898c39318310ffe71e0265e28d0062644f9fd7e8b9",
+      "source": "metacubex-github"
+    },
+    {
+      "category": "github",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/Github.yaml",
+      "path": "Clash/Providers/Ruleset/Github.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 6,
+      "sha256": "ab763c23cf5c83a9839c509551e3cb310787c2f40e725880aaebcbe0837db9ca",
+      "source": "acl4ssr-github"
+    },
+    {
+      "category": "openai",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/openai.yaml",
+      "path": "geo/geosite/openai.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 22,
+      "sha256": "19d194277b7eccade2b6d65a5a13770e028feea3e39140faaac43bd12d5a34af",
+      "source": "metacubex-openai"
+    },
+    {
+      "category": "openai",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/OpenAi.yaml",
+      "path": "Clash/Providers/Ruleset/OpenAi.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 17,
+      "sha256": "f4d714a49e6e05a06292f3dab94201d09270c9af2f28e5d7f4751564c070076e",
+      "source": "acl4ssr-openai"
+    },
+    {
+      "category": "telegram",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/telegram.yaml",
+      "path": "geo/geosite/telegram.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 21,
+      "sha256": "4712014d6fcb434daf8b03b4740e37445109b42bc0e824f6acbce733ef92abb0",
+      "source": "metacubex-telegram-domain"
+    },
+    {
+      "category": "telegram",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-ipcidr-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geoip/telegram.yaml",
+      "path": "geo/geoip/telegram.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 12,
+      "sha256": "12a1e7bd189fc23db25e9ac45f3bb8e9a5978048541a0358a46ef72b110812ae",
+      "source": "metacubex-telegram-ip"
+    },
+    {
+      "category": "telegram",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/Telegram.yaml",
+      "path": "Clash/Providers/Ruleset/Telegram.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 14,
+      "sha256": "8db877946f309006d3f070b40c55a2dc87a2e61abbd0d83bba1bf82d322d70cb",
+      "source": "acl4ssr-telegram"
+    },
+    {
+      "category": "onedrive",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/onedrive.yaml",
+      "path": "geo/geosite/onedrive.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 16,
+      "sha256": "f892e0c94d56b72c6fdb7e12aab431b4203c5806edcc7453a46eb46433591005",
+      "source": "metacubex-onedrive"
+    },
+    {
+      "category": "onedrive",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/OneDrive.yaml",
+      "path": "Clash/Providers/Ruleset/OneDrive.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 15,
+      "sha256": "18ad7dc7dbf3015a3a342cd17115177cb124218c0996a7bbbe4c586ed4786a21",
+      "source": "acl4ssr-onedrive"
+    },
+    {
+      "category": "microsoft",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/microsoft.yaml",
+      "path": "geo/geosite/microsoft.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 748,
+      "sha256": "740b17381cb704970bb3bd814d43ef492080526544c6450c228ba613e940bc39",
+      "source": "metacubex-microsoft"
+    },
+    {
+      "category": "microsoft",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/Microsoft.yaml",
+      "path": "Clash/Providers/Ruleset/Microsoft.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 79,
+      "sha256": "c1b0d1b7fd4c9d40f71dca4fcd9daab3ccb14814cecaff1b9784c486565dd090",
+      "source": "acl4ssr-microsoft"
+    },
+    {
+      "category": "google-fcm",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/GoogleFCM.yaml",
+      "path": "Clash/Providers/Ruleset/GoogleFCM.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 44,
+      "sha256": "88f05d1b0e49ebc713a94d691e8ecc89770bfa07f77ba2fc6cf81131d18efb4c",
+      "source": "acl4ssr-google-fcm"
+    },
+    {
+      "category": "icloud",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/icloud.yaml",
+      "path": "geo/geosite/icloud.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 53,
+      "sha256": "7780ac7c90942c813673e757da0c82bb3dbca339cd52cbfd15225d30828f3679",
+      "source": "metacubex-icloud"
+    },
+    {
+      "category": "apple",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/apple.yaml",
+      "path": "geo/geosite/apple.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 1790,
+      "sha256": "8fc689eee4a5437bde63dc98e2425aca7b7146e5d26135b3c4fd996596028669",
+      "source": "metacubex-apple"
+    },
+    {
+      "category": "apple",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/Apple.yaml",
+      "path": "Clash/Providers/Ruleset/Apple.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 29,
+      "sha256": "99aa3175be4ba42b0113cb24be2c4348879a4126412968ba781b9286093ca31b",
+      "source": "acl4ssr-apple"
+    },
+    {
+      "category": "ads",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/category-ads-all.yaml",
+      "path": "geo/geosite/category-ads-all.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 904,
+      "sha256": "6ce368c0dc816c8ec42dd3766c147a5941a3049f739cc2913b4bec8d6ab3c02c",
+      "source": "metacubex-category-ads-all"
+    },
+    {
+      "category": "ads",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/BanAD.yaml",
+      "path": "Clash/Providers/BanAD.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 588,
+      "sha256": "3ac697e5d522dd0313edae29aead9417359cc69381b7a999de525237d0251b0e",
+      "source": "acl4ssr-ban-ad"
+    },
+    {
+      "category": "ads",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/BanEasyListChina.yaml",
+      "path": "Clash/Providers/BanEasyListChina.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 5050,
+      "sha256": "a312d74d13e05b4d6f82890122f7ab79760cb11d552703310a435dd62f979309",
+      "source": "acl4ssr-ban-easy-list-china"
+    },
+    {
+      "category": "app-ads",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/BanProgramAD.yaml",
+      "path": "Clash/Providers/BanProgramAD.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 1016,
+      "sha256": "1f6f51f1206d31999804e9da1b715a586cd8c188fa3ee1dd173c77df13dab76d",
+      "source": "acl4ssr-ban-program-ad"
+    },
+    {
+      "category": "gfw",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/gfw.yaml",
+      "path": "geo/geosite/gfw.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 4325,
+      "sha256": "2aa453c380680baa3249067439eee52ce16dce895b4fba6522e79232a7d53368",
+      "source": "metacubex-gfw"
+    },
+    {
+      "category": "gfw",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/ProxyGFWlist.yaml",
+      "path": "Clash/Providers/ProxyGFWlist.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 4296,
+      "sha256": "fc869370d93d895fd3dd619568813ae41a4339a9db7228f87830714f96d0ca25",
+      "source": "acl4ssr-proxy-gfwlist"
+    },
+    {
+      "category": "global-non-cn",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/geolocation-!cn.yaml",
+      "path": "geo/geosite/geolocation-!cn.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 26835,
+      "sha256": "90c7ad331f84a29cabb6b83db6c0abd75a27accc3f72ec98ed17260027b3d3d3",
+      "source": "metacubex-geolocation-non-cn"
+    },
+    {
+      "category": "google-cn",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/google-cn.yaml",
+      "path": "geo/geosite/google-cn.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 112,
+      "sha256": "02137f62d4e1bded77f475e13e49b3bd83ec3c510c9c3452632367f75f2a803b",
+      "source": "metacubex-google-cn"
+    },
+    {
+      "category": "google-cn",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/GoogleCN.yaml",
+      "path": "Clash/Providers/Ruleset/GoogleCN.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 48,
+      "sha256": "131781f1f036062eb2531c490c1cb810ead87e7c38d601ab9ad4d0bdaadb0f82",
+      "source": "acl4ssr-google-cn"
+    },
+    {
+      "category": "steam-cn",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/steam@cn.yaml",
+      "path": "geo/geosite/steam@cn.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 19,
+      "sha256": "0681b5fe90979c22cb6165f9b33e8bd451bbbe26e0537bd9bcc1fa69f437f6a9",
+      "source": "metacubex-steam-cn"
+    },
+    {
+      "category": "steam-cn",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/SteamCN.yaml",
+      "path": "Clash/Providers/Ruleset/SteamCN.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 16,
+      "sha256": "f0cbbdbef1c2c4b982d652b70da16e9bb5c5fc13dc53e3c25f2674832983ca55",
+      "source": "acl4ssr-steam-cn"
+    },
+    {
+      "category": "download",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/Ruleset/Download.yaml",
+      "path": "Clash/Providers/Ruleset/Download.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 2,
+      "sha256": "51827aca2a69764ed9cc2994016263d0016dcff7dc534ee220f253d0ca4e63a9",
+      "source": "acl4ssr-download"
+    },
+    {
+      "category": "unban",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/UnBan.yaml",
+      "path": "Clash/Providers/UnBan.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 51,
+      "sha256": "c005fee04293d3d7f135054c14f59056717f37bb8b81a06198fb5d75b5e6e207",
+      "source": "acl4ssr-unban"
+    },
+    {
+      "category": "china",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-domain-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geosite/cn.yaml",
+      "path": "geo/geosite/cn.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 111803,
+      "sha256": "f5fc432b05c776146758084aceb4cae95075351c78ffcfeb8de307616fbede96",
+      "source": "metacubex-china-domain"
+    },
+    {
+      "category": "china",
+      "commit": "ff56c772fbf716c82e3cb372087aee81019778c3",
+      "format": "mihomo-ipcidr-yaml",
+      "location": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/ff56c772fbf716c82e3cb372087aee81019778c3/geo/geoip/cn.yaml",
+      "path": "geo/geoip/cn.yaml",
+      "ref": "meta",
+      "repository": "MetaCubeX/meta-rules-dat",
+      "rule_count": 5823,
+      "sha256": "758d4ab6aea2ecabaa37d2967dabe2b8acbdc65706ddaa392c285e54614d6718",
+      "source": "metacubex-china-ip"
+    },
+    {
+      "category": "china",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/ChinaDomain.yaml",
+      "path": "Clash/Providers/ChinaDomain.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 635,
+      "sha256": "1c37f48790d6ff3427aa5176e06607ceab51cb8dd740c9ac8ca8d01039180260",
+      "source": "acl4ssr-china-domain"
+    },
+    {
+      "category": "china",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/ChinaIp.yaml",
+      "path": "Clash/Providers/ChinaIp.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 7456,
+      "sha256": "0ba5c7979119ddd5438250c99dda0a531c63c022a2791b26844d4f201a62b1df",
+      "source": "acl4ssr-china-ip"
+    },
+    {
+      "category": "china",
+      "commit": "2bd8c32ca469c6e548a21627bbe284ec8d7c92ba",
+      "format": "classical-yaml",
+      "location": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/2bd8c32ca469c6e548a21627bbe284ec8d7c92ba/Clash/Providers/ChinaCompanyIp.yaml",
+      "path": "Clash/Providers/ChinaCompanyIp.yaml",
+      "ref": "master",
+      "repository": "ACL4SSR/ACL4SSR",
+      "rule_count": 208,
+      "sha256": "2cf835ff10e7bf6f54fc615c6e00ed57f0eb2a008c6d332f318ccb39ad9178cb",
+      "source": "acl4ssr-china-company-ip"
+    }
+  ],
+  "stats": {
+    "cross_category_conflicts": 2597,
+    "cross_category_overlaps": 4989,
+    "inline_rules": 79,
+    "input_rules": 172508,
+    "output_rules": 164933,
+    "providers": 32
+  }
+}

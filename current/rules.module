@@ -1,0 +1,376 @@
+# Generated file. Edit rule_categories.yaml, not this module.
+# MRS release: current
+
+[General]
+RESTART = true
+
+[YAML]
+rule-providers!:
+  private-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/private-domain.mrs
+    path: ./rule_provider/private-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  private-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/private-ipcidr.mrs
+    path: ./rule_provider/private-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  custom-direct-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/custom-direct-domain.mrs
+    path: ./rule_provider/custom-direct-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  custom-direct-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/custom-direct-ipcidr.mrs
+    path: ./rule_provider/custom-direct-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  custom-proxy-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/custom-proxy-domain.mrs
+    path: ./rule_provider/custom-proxy-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  bilibili-hmt-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/bilibili-hmt-domain.mrs
+    path: ./rule_provider/bilibili-hmt-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  bilibili-hmt-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/bilibili-hmt-ipcidr.mrs
+    path: ./rule_provider/bilibili-hmt-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  emby-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/emby-domain.mrs
+    path: ./rule_provider/emby-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  emby-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/emby-ipcidr.mrs
+    path: ./rule_provider/emby-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  github-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/github-domain.mrs
+    path: ./rule_provider/github-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  openai-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/openai-domain.mrs
+    path: ./rule_provider/openai-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  telegram-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/telegram-domain.mrs
+    path: ./rule_provider/telegram-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  telegram-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/telegram-ipcidr.mrs
+    path: ./rule_provider/telegram-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  onedrive-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/onedrive-domain.mrs
+    path: ./rule_provider/onedrive-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  microsoft-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/microsoft-domain.mrs
+    path: ./rule_provider/microsoft-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  google-fcm-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/google-fcm-domain.mrs
+    path: ./rule_provider/google-fcm-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  google-fcm-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/google-fcm-ipcidr.mrs
+    path: ./rule_provider/google-fcm-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  icloud-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/icloud-domain.mrs
+    path: ./rule_provider/icloud-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  apple-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/apple-domain.mrs
+    path: ./rule_provider/apple-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  apple-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/apple-ipcidr.mrs
+    path: ./rule_provider/apple-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  ads-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/ads-domain.mrs
+    path: ./rule_provider/ads-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  ads-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/ads-ipcidr.mrs
+    path: ./rule_provider/ads-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  app-ads-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/app-ads-domain.mrs
+    path: ./rule_provider/app-ads-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  app-ads-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/app-ads-ipcidr.mrs
+    path: ./rule_provider/app-ads-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+  gfw-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/gfw-domain.mrs
+    path: ./rule_provider/gfw-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  global-non-cn-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/global-non-cn-domain.mrs
+    path: ./rule_provider/global-non-cn-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  google-cn-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/google-cn-domain.mrs
+    path: ./rule_provider/google-cn-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  steam-cn-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/steam-cn-domain.mrs
+    path: ./rule_provider/steam-cn-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  download-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/download-domain.mrs
+    path: ./rule_provider/download-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  unban-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/unban-domain.mrs
+    path: ./rule_provider/unban-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  china-domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/china-domain.mrs
+    path: ./rule_provider/china-domain.mrs
+    interval: 86400
+    proxy: DIRECT
+  china-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/siakitem/clash_res/main/current/rules/china-ipcidr.mrs
+    path: ./rule_provider/china-ipcidr.mrs
+    interval: 86400
+    proxy: DIRECT
+rules!:
+- DOMAIN,localhost,DIRECT
+- DOMAIN,router.asus.com,DIRECT
+- DOMAIN,www.asusrouter.com,DIRECT
+- DOMAIN,routerlogin.com,DIRECT
+- DOMAIN,www.routerlogin.com,DIRECT
+- DOMAIN,tplogin.cn,DIRECT
+- DOMAIN,miwifi.com,DIRECT
+- DOMAIN,www.miwifi.com,DIRECT
+- DOMAIN-SUFFIX,lan,DIRECT
+- DOMAIN-SUFFIX,local,DIRECT
+- DOMAIN-SUFFIX,localdomain,DIRECT
+- DOMAIN-SUFFIX,home.arpa,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,224.0.0.0/4,DIRECT,no-resolve
+- IP-CIDR,255.255.255.255/32,DIRECT,no-resolve
+- IP-CIDR6,::1/128,DIRECT,no-resolve
+- IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- IP-CIDR6,fe80::/10,DIRECT,no-resolve
+- IP-CIDR6,ff00::/8,DIRECT,no-resolve
+- RULE-SET,private-domain,DIRECT
+- RULE-SET,private-ipcidr,DIRECT,no-resolve
+- RULE-SET,custom-direct-domain,DIRECT
+- RULE-SET,custom-direct-ipcidr,DIRECT,no-resolve
+- RULE-SET,custom-proxy-domain,🚀 节点选择
+- RULE-SET,bilibili-hmt-domain,🚀 节点选择
+- RULE-SET,bilibili-hmt-ipcidr,🚀 节点选择,no-resolve
+- RULE-SET,emby-domain,🚀 节点选择
+- RULE-SET,emby-ipcidr,🚀 节点选择,no-resolve
+- DOMAIN-KEYWORD,emby,🚀 节点选择
+- DOMAIN-KEYWORD,emby.wtf,🚀 节点选择
+- DOMAIN-KEYWORD,jmsooo,🚀 节点选择
+- DOMAIN-KEYWORD,odysseyplus,🚀 节点选择
+- PROCESS-NAME,com.mb.android,🚀 节点选择
+- RULE-SET,github-domain,🚀 节点选择
+- DOMAIN-KEYWORD,github,🚀 节点选择
+- RULE-SET,openai-domain,🚀 节点选择
+- DOMAIN-KEYWORD,openai,🚀 节点选择
+- RULE-SET,telegram-domain,🚀 节点选择
+- RULE-SET,telegram-ipcidr,🚀 节点选择,no-resolve
+- DOMAIN-KEYWORD,telegram,🚀 节点选择
+- RULE-SET,onedrive-domain,DIRECT
+- DOMAIN-KEYWORD,1drv,DIRECT
+- DOMAIN-KEYWORD,onedrive,DIRECT
+- DOMAIN-KEYWORD,skydrive,DIRECT
+- RULE-SET,microsoft-domain,DIRECT
+- DOMAIN-KEYWORD,1drv,DIRECT
+- DOMAIN-KEYWORD,microsoft,DIRECT
+- RULE-SET,google-fcm-domain,DIRECT
+- RULE-SET,google-fcm-ipcidr,DIRECT,no-resolve
+- RULE-SET,icloud-domain,DIRECT
+- RULE-SET,apple-domain,DIRECT
+- RULE-SET,apple-ipcidr,DIRECT,no-resolve
+- RULE-SET,ads-domain,REJECT
+- RULE-SET,ads-ipcidr,REJECT,no-resolve
+- DOMAIN-KEYWORD,admarvel,REJECT
+- DOMAIN-KEYWORD,admaster,REJECT
+- DOMAIN-KEYWORD,adsage,REJECT
+- DOMAIN-KEYWORD,adsensor,REJECT
+- DOMAIN-KEYWORD,adsmogo,REJECT
+- DOMAIN-KEYWORD,adsrvmedia,REJECT
+- DOMAIN-KEYWORD,adsserving,REJECT
+- DOMAIN-KEYWORD,adsystem,REJECT
+- DOMAIN-KEYWORD,adwords,REJECT
+- DOMAIN-KEYWORD,applovin,REJECT
+- DOMAIN-KEYWORD,appsflyer,REJECT
+- DOMAIN-KEYWORD,domob,REJECT
+- DOMAIN-KEYWORD,duomeng,REJECT
+- DOMAIN-KEYWORD,dwtrack,REJECT
+- DOMAIN-KEYWORD,guanggao,REJECT
+- DOMAIN-KEYWORD,omgmta,REJECT
+- DOMAIN-KEYWORD,omniture,REJECT
+- DOMAIN-KEYWORD,openx,REJECT
+- DOMAIN-KEYWORD,partnerad,REJECT
+- DOMAIN-KEYWORD,pingfore,REJECT
+- DOMAIN-KEYWORD,socdm,REJECT
+- DOMAIN-KEYWORD,supersonicads,REJECT
+- DOMAIN-KEYWORD,wlmonitor,REJECT
+- DOMAIN-KEYWORD,zjtoolbar,REJECT
+- RULE-SET,app-ads-domain,REJECT
+- RULE-SET,app-ads-ipcidr,REJECT,no-resolve
+- DOMAIN-KEYWORD,omgmtaw,REJECT
+- RULE-SET,gfw-domain,🚀 节点选择
+- RULE-SET,global-non-cn-domain,🚀 节点选择
+- RULE-SET,google-cn-domain,DIRECT
+- RULE-SET,steam-cn-domain,DIRECT
+- RULE-SET,download-domain,DIRECT
+- DOMAIN-KEYWORD,aria2,DIRECT
+- RULE-SET,unban-domain,DIRECT
+- RULE-SET,china-domain,DIRECT
+- RULE-SET,china-ipcidr,DIRECT,no-resolve
+- DOMAIN-KEYWORD,360buy,DIRECT
+- DOMAIN-KEYWORD,alicdn,DIRECT
+- DOMAIN-KEYWORD,alimama,DIRECT
+- DOMAIN-KEYWORD,alipay,DIRECT
+- DOMAIN-KEYWORD,appzapp,DIRECT
+- DOMAIN-KEYWORD,baidupcs,DIRECT
+- DOMAIN-KEYWORD,bilibili,DIRECT
+- DOMAIN-KEYWORD,ccgslb,DIRECT
+- DOMAIN-KEYWORD,chinacache,DIRECT
+- DOMAIN-KEYWORD,duobao,DIRECT
+- DOMAIN-KEYWORD,jdpay,DIRECT
+- DOMAIN-KEYWORD,moke,DIRECT
+- DOMAIN-KEYWORD,qhimg,DIRECT
+- DOMAIN-KEYWORD,vpimg,DIRECT
+- DOMAIN-KEYWORD,xiami,DIRECT
+- DOMAIN-KEYWORD,xiaomi,DIRECT
+- MATCH,🚀 节点选择
